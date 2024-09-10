@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteudologin{
+    background-color: aliceblue;
+    height: 500px;
+    width: 500px;
+    margin: 30px auto;
+    opacity: 0.8;
+ 
+}
+body{
+    background-color: teal;
+}
+.conteudologin > div,label{
+display: block;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+.conteudologin > div,input {
+    width: 90%;
+}
+.conteudologin > div, button{
+    width:  70%;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+ 
+    border-radius: 10px;
+    padding:  5px;
+    margin-top: 15px;
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+    
+}
+.conteudologin > div, button:hover{
+  background-color: red;
+    color: black;
+    font-weight: 600;
+}
+.conteudologin > div, button:active{
+    background-color: rgb(200, 200, 225);
+      color: rgb(153, 0, 255);
+      font-weight: 600;
+  }
